@@ -50,4 +50,8 @@ module.exports = class MenuController {
     this.clear();
     process.exit();
   }
+
+  getContactCount(){
+    return this.contacts.length;
+  }
 }
